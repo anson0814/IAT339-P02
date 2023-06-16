@@ -1,0 +1,170 @@
+
+/* Citation: everything was learned from lab or from trial and error unless there is separate citation */
+
+
+.box {
+    display: flex;
+    margin: 0 auto;
+}
+
+.product-listing-box {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    max-width: 1200px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #393433;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.product-listing {
+    max-width: 360px;
+    padding: 1rem;
+    justify-content: left;
+}
+
+.product-name {
+    color: rgb(161, 97, 108);
+    font-size: 1.2rem;
+}
+
+.product-description {
+    padding: 1rem;
+    min-height: 1rem;
+}
+
+.product-price {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-box {
+    justify-content: space-evenly;
+    background-color: #e2ecdf;
+    padding: 0.25rem 20rem;
+}
+
+.box-item-nav { 
+	display: inline-block;
+	color: #393433;
+	font-size: 1.25rem;
+    font-weight: bold;
+	padding: 2em;
+	text-decoration: none;
+}
+
+.payment-form-box {
+    max-width: 1200px;
+    justify-content: center;
+}
+.column { /* Citation: grid display from https://stackoverflow.com/questions/71177735/splitting-form-into-two-columns */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #e2ecdf;
+    display: inline-block;
+    font-size: 1rem;
+	padding: 2rem 5rem;
+}
+
+.payment-label-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    padding: 1rem;
+}
+
+.checkout-cart-box {
+    background-color: #e2ecdf;
+    flex-direction: column;
+    justify-content: center;
+	padding: 1rem 1rem;
+    width: 44rem;
+}
+
+.payment-item {
+    padding: 1rem 1rem;
+}
+
+.checkout-heading {
+    text-align: center;
+}
+
+.checkout-item {
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    padding: 0rem 4em;
+}
+
+.checkout-img-box {
+    max-width: 360px;
+}
+
+.checkout-name {
+    font-size: 18px;
+}
+
+.checkout-price {
+    display: flex;
+    font-size: 18px;
+    padding: 1rem 1rem;
+}
+
+.checkout-total {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2rem;
+    text-align: right;
+}
+
+.counter{ /* Citation: learned how to make button from https://uxplanet.org/how-to-create-a-shopping-cart-ui-using-html-css-e5db3cd55aa0 */
+    display: flex;
+    width: 100%;
+    padding: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter-button { /* Citation: learned how to make button from https://uxplanet.org/how-to-create-a-shopping-cart-ui-using-html-css-e5db3cd55aa0 */
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #393433;
+}
+
+.counter {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button {
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 18px;
+    max-width: fit-content;
+    padding: 5rem;
+    color: #393433;
+    background-color:#e2ecdf;
+}
+
+.checkout-button {
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+.text {
+    height: 20%;
+}
+

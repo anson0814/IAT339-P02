@@ -1,0 +1,9 @@
+@font-face { /* Citation: lab */
+	font-family: 'Bebas Neue', sans-serif;
+	src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Arial;
+    src: url(Arial);
+}
