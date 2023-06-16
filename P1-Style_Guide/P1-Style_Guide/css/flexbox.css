@@ -156,6 +156,7 @@ h1 {
     padding: 5rem;
     color: #393433;
     background-color:#e2ecdf;
+    border-radius: 05px;
 }
 
 .checkout-button {
@@ -168,3 +169,44 @@ h1 {
     height: 20%;
 }
 
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #e2ecdf;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .nav-menu a {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #393433;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  
+  .nav-menu a:hover, a:focus {
+    color: #393433;
+    background-color: #c9e4bf;
+    border-radius: 15px;
+    text-decoration: underline;
+  }
+
+  input[type="radio"] {
+    accent-color: #f85d5d !important;
+    width: 100%;
+    height: 1.25em;
+  }
+
+  @media (max-width: 80rem) {
+    .nav-menu {
+      flex-wrap: wrap;
+    }
+    
+    .nav-menu a {
+      flex: none;
+      width: 50%;
+    }
+  }

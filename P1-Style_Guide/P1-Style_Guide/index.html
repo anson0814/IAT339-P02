@@ -9,6 +9,7 @@
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/flex.css" rel="stylesheet">
 
   </head>
 
@@ -20,7 +21,7 @@
       <p>A template you can use to start building out your own style guides with.</p>
 
 
-      <nav>        
+      <nav class="nav-menu">        
         <a href="#interactive_elements">Interactive Elements</a>
         <a href="#text_elements">Text Elements</a>
         <a href="#combined_elements">Combined Elements</a>
@@ -76,20 +77,24 @@
 
       <section class="element">
         <h3>Radio Button with Label</h3>
-          <input type="radio" id="choice1"> <!--Citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio-->
-          <label for="choice1">Shade 01</label>
-          <br>
-          <input type="radio" id="choice2">
-          <label for="choice2" >Shade 02</label>
-          <br>
-          <input type="radio" id="choice3">
-          <label for="choice">Shade 03</label>
+          <div>
+            <input type="radio" id="choice1"> <!--Citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio-->
+            <label for="choice1">Shade 01</label>
+          </div>
+          <div>
+            <input type="radio" id="choice2">
+            <label for="choice2" >Shade 02</label>
+          </div>
+          <div>
+            <input type="radio" id="choice3">
+            <label for="choice">Shade 03</label>
+          </div>
       </section>
 
 
       <section class="element">
         <h3>Image as a Link</h3>
-        <a class="product-img-box" href="product-1.jpg"><img src ="product-1.jpg"> </a> <!--Citation: lab tutorial-->
+        <a class="product-img-box" href="img/product-1.jpg"><img src ="img/product-1.jpg"> </a> <!--Citation: lab tutorial-->
       </section>
 
 
@@ -161,7 +166,7 @@
 
             <div class="product-listing product-1">
               <div> 
-                <a class="product-img-box" href="product-1.jpg"><img src ="product-1.jpg"> </a> <!--Citation: lab tutorial-->
+                <a class="product-img-box" href="img/product-1.jpg"><img src ="img/product-1.jpg"> </a> <!--Citation: lab tutorial-->
               </div>
                 <h4 class="product-name">HUE CALM Kintsugi Firming Cream</h4>
               <p class="product-description"> A gel formula firming cream with 100% vegan formula. </p>
@@ -170,7 +175,7 @@
 
             <div class="product-listing product-5">
               <div>
-                <a class="product-img-box" href="product-5.jpeg"><img src ="product-5.jpeg"> </a> <!--Citation: lab tutorial-->
+                <a class="product-img-box" href="img/product-5.jpeg"><img src ="img/product-5.jpeg"> </a> <!--Citation: lab tutorial-->
               </div>
               <h4 class="product-name">Skinfood Lemon Verbena Body Lotion</h4>
               <p class="product-description">A daily body lotion with lemon verbana extract for deep hydration to the skin. </p>
@@ -179,7 +184,7 @@
 
             <div class="product-listing product-2">
               <div>
-                <a class="product-img-box" href="product-2.jpg"><img src ="product-2.jpg"> </a> <!--Citation: lab tutorial-->
+                <a class="product-img-box" href="img/product-2.jpg"><img src ="img/product-2.jpg"> </a> <!--Citation: lab tutorial-->
               </div>
               <h4 class="product-name">Heart Percent Cleansing Balm</h4>
               <p class="product-description">A daily cleansing balm with calming effect for irritated skin. </p>
@@ -188,7 +193,7 @@
 
             <div class="product-listing product-3">
               <div>
-                <a class="product-img-box" href="product-3.jpg"><img src ="product-3.jpg"> </a> <!--Citation: lab tutorial-->
+                <a class="product-img-box" href="img/product-3.jpg"><img src ="img/product-3.jpg"> </a> <!--Citation: lab tutorial-->
               </div>
               <h4 class="product-name">MEDI-PEEL Stick Mask</h4>
               <p class="product-description">A stick face mask to help with blackheads, dead skin cells. </p>
@@ -197,7 +202,7 @@
 
             <div class="product-listing product-4">
               <div> 
-                <a class="product-img-box" href="product-4.jpeg"><img src ="product-4.jpeg"> </a> <!--Citation: lab tutorial-->
+                <a class="product-img-box" href="img/product-4.jpeg"><img src ="img/product-4.jpeg"> </a> <!--Citation: lab tutorial-->
               </div>
                 <h4 class="product-name">Marshique Enriched Washable Mascara</h4>
               <p class="product-description"> A mascara that gives lashes a natural appearance and is easily removed with warm water to prevent irritation to the eyes. </p>
@@ -313,7 +318,7 @@
             <div class="checkout-item box">
               <div> 
                 <h4 class="checkout-name">HUE CALM Kintsugi Firming Cream</h4>
-                <a class="checkout-img-box" href="product-1.jpg"><img src ="product-1.jpg"> </a> <!--Citation: lab tutorial-->
+                <a class="checkout-img-box" href="img/product-1.jpg"><img src ="img/product-1.jpg"> </a> <!--Citation: lab tutorial-->
               </div>
               <div class="counter"> <!-- Citation: learned how to make button from https://uxplanet.org/how-to-create-a-shopping-cart-ui-using-html-css-e5db3cd55aa0-->
                 <div class="counter-button">-</div>
@@ -326,7 +331,7 @@
             <div class="checkout-item box">
               <div> 
                 <h4 class="checkout-name">MEDI-PEEL Stick Mask</h4>
-                <a class="checkout-img-box" href="product-3.jpg"><img src ="product-3.jpg"> </a> <!--Citation: lab tutorial-->
+                <a class="checkout-img-box" href="img/product-3.jpg"><img src ="img/product-3.jpg"> </a> <!--Citation: lab tutorial-->
               </div>
               <div class="counter"> <!-- Citation: learned how to make button from https://uxplanet.org/how-to-create-a-shopping-cart-ui-using-html-css-e5db3cd55aa0-->
                 <div class="counter-button">-</div>
@@ -339,7 +344,7 @@
             <div class="checkout-item box">
               <div>
                 <h4 class="checkout-name">Heart Percent Cleansing Balm</h4> 
-                <a class="checkout-img-box" href="product-2.jpg"><img src ="product-2.jpg"> </a> <!--Citation: lab tutorial-->
+                <a class="checkout-img-box" href="img/product-2.jpg"><img src ="img/product-2.jpg"> </a> <!--Citation: lab tutorial-->
               </div>
               <div class="counter"> <!-- Citation: learned how to make button from https://uxplanet.org/how-to-create-a-shopping-cart-ui-using-html-css-e5db3cd55aa0-->
                 <div class="counter-button">-</div>
@@ -394,12 +399,12 @@
 
       <section class="element">
         <h3>Colors</h3>
-        <a href="color-palette.jpg"><img src ="color-palette.jpg"></a>
+        <a href="img/color-palette.jpg"><img src ="img/color-palette.jpg"></a>
       </section>
 
       <section class="element">
         <h3>Art Direction</h3>
-        <a href="art-direction-board.jpg"><img src ="art-direction-board.jpg"></a>
+        <a href="img/art-direction-board.jpg"><img src ="img/art-direction-board.jpg"></a>
       </section>
 
     </section>
