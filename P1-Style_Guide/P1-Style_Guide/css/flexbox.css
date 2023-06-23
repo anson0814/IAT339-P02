@@ -210,3 +210,27 @@ h1 {
       width: 50%;
     }
   }
+
+/* contact FORM */
+.contact-form-box {
+    justify-content: center; /* default justify is left */
+}
+
+.contact-column { /* Citation: grid display from https://stackoverflow.com/questions/71177735/splitting-form-into-two-columns */
+    display: grid; /* sorts payment and shipping into 2 columns */
+    grid-template-columns: 1fr 1fr;
+    background-color: #e2ecdf;
+    display: inline-block; 
+	padding: 0rem 3rem 3rem 2rem;
+}
+
+.contact-label-box { /* for labels and inputs */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*splits label and input divs in 2 columns*/
+    padding: 1rem; 
+}
+
+#message {
+    padding: 4rem 1rem 0rem 0rem;
+}
+
