@@ -236,6 +236,10 @@ h1 {
 
 .about-box {
     background-color: #e2ecdf;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
 }
 
 
