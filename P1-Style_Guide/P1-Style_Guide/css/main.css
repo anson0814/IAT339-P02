@@ -92,6 +92,7 @@ input {
   padding: 0.5rem;
   border-radius: 0.1rem;
   border-style: none;
+  margin-bottom: 0.75rem;
 }
 
 input[type=submit] { /* Citation: https://html.form.guide/web-form-widget/css3-button-hover-effects/ */
@@ -115,7 +116,7 @@ a.button-nav {
   padding: 0.6em 2.4em; 
   background-color: #e2ecdf;
   color: #393433;
-  border-radius: 2em;
+  border-radius: 0.25em;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
@@ -126,13 +127,33 @@ a.button-nav:hover,
 a.button-nav:focus {
   color: #393433;
     background-color: #c9e4bf;
-  border-radius: 2em;
   text-decoration: underline;
 }
 
 .counter-button:hover {
   border: 0.1rem solid #393333;
 }
+
+.feedback-box{
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #e2ecdf;
+  border-radius: 0.25em;
+}
+
+
+/*Product page Styles*/
+.product-title{
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.product-price{
+  font-weight: 50;
+  font-size: 1rem;
+}
+
 
 /* 
   INTERACTIVE ELEMENTS -------------------
