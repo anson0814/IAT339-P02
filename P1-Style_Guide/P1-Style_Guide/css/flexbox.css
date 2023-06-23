@@ -242,4 +242,10 @@ h1 {
     margin: 2rem;
 }
 
+#about-text .about-box{
+    background-color: white;
+    color: black;
+    padding: 2rem 2rem;
+}
+
 
