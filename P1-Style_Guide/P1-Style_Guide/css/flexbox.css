@@ -14,15 +14,6 @@
     max-width: 1200px;
 }
 
-h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 4rem;
-    color: #393433;
-    font-family: 'DM Serif Display', serif;
-    
-}
-
 .product-listing {
     max-width: 360px;
     padding: 1rem;
@@ -210,6 +201,11 @@ h1 {
       flex: none;
       width: 50%;
     }
+
+    .footer ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
   }
 
 /* contact FORM */
@@ -229,6 +225,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr; /*splits label and input divs in 2 columns*/
     padding: 1rem; 
+    margin-top: 1.5rem;
 }
 
 #message {
