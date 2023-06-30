@@ -17,9 +17,10 @@
 h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #393433;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'DM Serif Display', serif;
+    
 }
 
 .product-listing {

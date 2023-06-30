@@ -1,6 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=DM+Serif+Display&display=swap');
+
 @font-face { /* Citation: lab */
 	font-family: 'Bebas Neue', sans-serif;
-	src: url(fonts/BebasNeue-Regular.ttf);
+	src: url(fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face { /* Citation: lab */
+	font-family: 'DM Serif Display', serif;
+	src: url(fonts/DM_Serif_Display/DMSerifDisplay_Regular.ttf);
+}
+
+@font-face { 
+	font-family: 'Caprasimo', cursive;
+	src: url(fonts/Caprasimo/Caprasimo-Regular.ttf);
 }
 
 @font-face {
