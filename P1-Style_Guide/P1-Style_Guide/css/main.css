@@ -39,7 +39,9 @@ img { /*Citation: from lab*/
 }
 
 h1 {
-  font-size: 42px;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #393433;
   font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -177,6 +179,9 @@ a.button-nav:focus {
   margin-top: 2rem;
 }
 
+.center-heading{
+  text-align: center;
+}
 
 /* 
   INTERACTIVE ELEMENTS -------------------
@@ -228,11 +233,5 @@ a.button-nav:focus {
   border: 0px;
 }
 
-@media screen and (max-width: 768px) {
-  .footer ul li {
-      display: block;
-      margin-bottom: 10px;
-  }
-}
 
 
