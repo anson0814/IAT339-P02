@@ -18,7 +18,7 @@ img:hover, img:focus { /*Citation: from lab*/
 
 img { /*Citation: from lab*/
   max-width: 100%; 
-  border: 1px solid rgb(99, 80, 80);
+  border: 10px solid rgb(99, 80, 80);
   height: auto;
 }
 
