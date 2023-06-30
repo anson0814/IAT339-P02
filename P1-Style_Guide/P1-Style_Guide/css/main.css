@@ -38,6 +38,11 @@ img { /*Citation: from lab*/
   border-top-color: black;
 }
 
+h1 {
+  font-size: 42px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
 h2 {
   margin-top: 6rem;
   font-family: 'Bebas Neue', sans-serif;
@@ -126,7 +131,7 @@ a.button-nav {
 a.button-nav:hover, 
 a.button-nav:focus {
   color: #393433;
-    background-color: #c9e4bf;
+  background-color: #c9e4bf;
   text-decoration: underline;
 }
 
@@ -163,26 +168,17 @@ a.button-nav:focus {
   font-size: 1rem;
 }
 
+.product{
+  margin-top: 2rem;
+}
+
 
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
 
 /* Styling for the navigation button */
-.button-nav {
-  display: inline-block;
-  padding: 0.5rem;
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-  transition-property: background-color; 
-  transition-duration: 0.5s;
-}
 
-.button-nav:hover, .button-nav:focus {
-  text-decoration: none;
-  color: white;
-}
 
 
 /* 
