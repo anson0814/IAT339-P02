@@ -13,13 +13,14 @@ section {
 }
 
 img:hover, img:focus { /*Citation: from lab*/
-  border: 10px solid #e3d1d1;
+  border: 0.2rem solid #e3d1d1;
 }
 
 img { /*Citation: from lab*/
   max-width: 100%; 
-  border: 10px solid rgb(99, 80, 80);
+  border: 0.2rem solid rgb(99, 80, 80);
   height: auto;
+  border-radius: 1rem;
 }
 
 #homepage-img-text {
