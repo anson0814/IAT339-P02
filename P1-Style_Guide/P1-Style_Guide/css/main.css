@@ -151,6 +151,7 @@ a.button-nav:focus {
   padding: 2rem;
   background-color: #e2ecdf;
   border-radius: 0.25em;
+  margin-bottom: 30px;
 }
 
 .feedback-box textarea {
