@@ -34,6 +34,23 @@ img { /*Citation: from lab*/
   left: 10%;
 }
 
+#about-img-text {
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 2.2rem;
+}
+
+#about-text {
+  margin: 1rem 22% 5rem 22%;
+  padding: auto;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: 'Arial', sans-serif;
+
+}
+
 .homepage-button {
   position: absolute;
   top: 75%;
