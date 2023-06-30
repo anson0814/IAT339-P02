@@ -253,5 +253,8 @@ a.button-nav:focus {
   border: 0px;
 }
 
-
-
+.about-section{
+  max-width: 50%;
+  text-align: center;
+  align-content: center;
+}
