@@ -14,6 +14,10 @@
     max-width: 1200px;
 }
 
+.detailed-product-listing-box {
+    flex-wrap: wrap;
+}
+
 .detailed-product-listing {
     margin: 4rem;
     max-width: 600px;
