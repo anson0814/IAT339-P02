@@ -6,6 +6,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif; /*Citation: from lab*/
   padding: 2rem;
+  background-color: #f7fbf5;
 }
 
 section {
@@ -115,6 +116,7 @@ h4 {
 
 p {
   margin-top: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*anchored in text links*/
@@ -185,6 +187,7 @@ a.button-nav:hover,
 a.button-nav:focus {
   color: #393433;
   background-color: #c9e4bf;
+  text-decoration: underline;
 }
 
 .counter-button:hover {
@@ -249,7 +252,7 @@ a.button-nav:focus {
 
 .footer {
   background-color: #E2ECDF;
-  padding: 3rem;
+  padding: 20px;
   text-align: center;
   border-radius: 10px;
 }
