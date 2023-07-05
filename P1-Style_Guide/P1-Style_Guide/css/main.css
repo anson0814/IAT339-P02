@@ -38,17 +38,27 @@ img { /*Citation: from lab*/
   color: white;
   position: absolute;
   top: 60%;
-  left: 10%;
   font-size: 2.2rem;
+  max-width: 70%;
+  padding: 0 10%;
 }
 
 #about-text {
-  margin: 1rem 22% 5rem 22%;
+  margin: 1rem 25% 5rem 25%;
   padding: auto;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 2rem;
   font-family: 'Arial', sans-serif;
+}
 
+@media (min-width: 600px) and (max-width: 900px) {
+  #about-text {margin: 1rem 15% 5rem 15%}
+  #about-img-text {font-size: 2rem}
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+  #about-text {margin: 1rem 10% 5rem 10%}
+  #about-img-text {font-size: 1.5rem}
 }
 
 .homepage-button {
@@ -175,7 +185,6 @@ a.button-nav:hover,
 a.button-nav:focus {
   color: #393433;
   background-color: #c9e4bf;
-  text-decoration: underline;
 }
 
 .counter-button:hover {
@@ -273,6 +282,7 @@ a.button-nav:focus {
 
 .home-image img{
   border: 0;
+  width: 100%;
 }
 
 
