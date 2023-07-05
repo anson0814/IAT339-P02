@@ -365,30 +365,21 @@
 
         <h1 class="center-heading"> CONTACT US </h1>
 
-        <div class="box contact-form-box">
-
-            <div class="contact-column">
-
-            <div class="contact-label-box">
-                <div> <label>Full Name</label> </div>
-                <div> <input type="text" id="name"> </div>
-            </div>
-            <div class="contact-label-box">
-                <div> <label>Email</label> </div>
-                <div> <input type="text" id="email"> </div> 
-            </div>
-            <div class="contact-label-box">
-                <div> <label>Message</label> </div>
-                <div> <input type="text" id="message"> </div> 
-            </div>
-
-            <div>
-                <input type="submit" value="Submit" class="button"> <!--value defines text on button-->
-            </div>
-
-            </div>
-
-        </div>
+        <div class="feedback-box">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="feedback">Message:</label>
+                <input type="text" id="feedback" name="feedback" required>
+    
+                <input type="submit" value="Submit" class="button"/>
+                
+            </form>
+        </div> 
     
         </section>
 
@@ -420,18 +411,32 @@
 
         <section class="element">
         <h3>Fonts</h3>
-        <p id="Bebes">Bebas Neue Regular will be used for main heading (ex. product name)</p>
-        <p id="Arial">Arial Bold will be used for cost</p>
-        <p id="Roboto">Arial Regular will be used for paragraph text (ex. product description)</p>
+        <p class="Bebes">Bebas Neue Regular will be used for main heading (ex. product name)</p>
+        <p class="Arial">Arial Bold will be used for cost</p>
+        <p class="Roboto">Arial Regular will be used for paragraph text (ex. product description)</p>
         <p>Arial Italic will be used for product ingredients</p>
         </section>
 
         <section class="element">
         <h3>Colors</h3>
-        <div> #</div>
-        <div> #</div>
-        <div> #</div>
-        <a href="img/color-palette.jpg"><img src ="img/color-palette.jpg" alt="Colour Palette"></a>
+        <div class="box color-guide-box">
+            <div class="container">
+                <div class="color-circle c1"></div>
+                <h4> #E2ECDF </h4>
+                <p> used for container backgrounds </p>
+            </div>
+            <div class="container">
+                <div class="color-circle c2"></div>
+                <h4> #393333 </h4>
+                <p> used for borders and text </p>
+            </div>
+            <div class="container">
+                <div class="color-circle c3"></div>
+                <h4> #E3D1D1</h4>
+                <p> used for changing border during hover state </p>
+            </div>
+        </div>
+        
         </section>
 
         <section class="element">

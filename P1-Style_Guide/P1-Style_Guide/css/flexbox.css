@@ -265,4 +265,8 @@
     padding: 2rem 2rem;
 }
 
+.color-guide-box {
+    flex-wrap: wrap;
+}
+
 
