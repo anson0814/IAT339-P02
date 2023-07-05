@@ -187,7 +187,6 @@ a.button-nav:hover,
 a.button-nav:focus {
   color: #393433;
   background-color: #c9e4bf;
-  text-decoration: underline;
 }
 
 .counter-button:hover {
