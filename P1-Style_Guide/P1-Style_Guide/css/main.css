@@ -77,21 +77,27 @@ img { /*Citation: from lab*/
   border-top-color: black;
 }
 
+.main-heading {
+  font-weight: bold;
+  font-size: 36px;
+  color: #393433;
+  font-family: 'DM Serif Display', serif;
+}
+
 h1 {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 60px;
   color: #393433;
   font-family: 'DM Serif Display', serif;
 }
 
 h2 {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 36px;
+  font-size: 48px;
   color: #393333;
 }
 
 h3 {
-  margin-top: 1rem;
   font-size: 24px;
 }
 
@@ -341,10 +347,12 @@ form input[type=submit] {
 
 .color-guide-box {
   flex-wrap: wrap;
+  width: 100%;
+
 }
 
   .container {
-    margin: 2rem auto;
+    margin: 1rem 1rem;
     width: 15rem;
   }
 
