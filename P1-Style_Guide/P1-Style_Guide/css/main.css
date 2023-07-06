@@ -257,21 +257,9 @@ a.button-nav:focus {
   border-radius: 10px;
 }
 
-.footer ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.footer ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.footer ul li a {
-  color: #393333;
-  text-decoration: none;
-  padding: 5px;
-  border: 1px solid #393333;
+.footer-nav{
+  display: flex;
+	flex-direction: column;
 }
 
 .footer .social-media img {
@@ -280,6 +268,28 @@ a.button-nav:focus {
   margin-bottom: 10px;
   margin-right: 20px;
   border: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .flex-child {
+    flex-basis: 100%; 
+    margin-bottom: 10px;
+  }
 }
 
 .about-section{
