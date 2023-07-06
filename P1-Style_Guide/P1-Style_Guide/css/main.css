@@ -24,7 +24,7 @@ img { /*Citation: from lab*/
 #homepage-img-text {
   color: white;
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 10%;
 }
 
@@ -316,10 +316,10 @@ form input[type=submit] {
     align-items: center;
 }
 
-@media (max-width: 600px) {
-  .container {
+@media (max-width: 850px) {
+  .footer-container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .flex-child {
@@ -334,9 +334,16 @@ form input[type=submit] {
   align-content: center;
 }
 
+.home-image{
+  position: relative;
+}
+
 .home-image img{
   border: 0;
   width: 100%;
+  align-content: center;
+  position: relative;
+  height: 100%;
 }
 
 /* 
@@ -426,5 +433,12 @@ form input[type=submit] {
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
+  }
+
+  .cart-icon img {
+    border: 0;
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
   }
 }
