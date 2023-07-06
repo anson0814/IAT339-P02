@@ -64,25 +64,6 @@
 	text-decoration: none;
 }
 
-.payment-form-box {
-    max-width: 1200px;
-    justify-content: center;
-}
-.column { /* Citation: grid display from https://stackoverflow.com/questions/71177735/splitting-form-into-two-columns */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #e2ecdf;
-    display: inline-block;
-    font-size: 1rem;
-	padding: 2rem 5rem;
-}
-
-.payment-label-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;  
-    padding: 1rem;
-}
-
 .checkout-cart-box {
     background-color: #e2ecdf;
     flex-direction: column;
@@ -90,10 +71,6 @@
 	padding: 2rem 2rem;
     width: 44rem;
     border-radius: 1rem;
-}
-
-.payment-item {
-    padding: 1rem 1rem;
 }
 
 .checkout-heading {
