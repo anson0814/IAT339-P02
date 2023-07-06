@@ -291,26 +291,14 @@ form input[type=submit] {
 
 .footer {
   background-color: #E2ECDF;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   border-radius: 10px;
 }
 
-.footer ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.footer ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.footer ul li a {
-  color: #393333;
-  text-decoration: none;
-  padding: 5px;
-  border: 1px solid #393333;
+.footer-nav{
+  display: flex;
+	flex-direction: column;
 }
 
 .footer .social-media img {
@@ -319,8 +307,36 @@ form input[type=submit] {
   margin-bottom: 10px;
   margin-right: 20px;
   border: 0px;
+  border-radius: 0;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .flex-child {
+    flex-basis: 100%; 
+    margin-bottom: 10px;
+  }
+}
+
+.about-section{
+  max-width: 50%;
+  text-align: center;
+  align-content: center;
+}
 
 .home-image img{
   border: 0;
@@ -375,3 +391,29 @@ form input[type=submit] {
   }
 
 
+
+
+.cart-wrapper {
+  border: 0;
+  position: absolute;
+  top: 75px;
+  right: 100px;
+}
+
+.cart-wrapper:hover .cart-icon {
+  border: 0;
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in-out;
+}
+
+.cart-icon {
+  border: 0;
+  display: inline-block;
+}
+
+.cart-icon img {
+  border: 0;
+  border-radius: 0;
+  width: 60px;
+  height: 60px;
+}
