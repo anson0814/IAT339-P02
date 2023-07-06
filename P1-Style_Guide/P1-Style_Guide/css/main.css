@@ -195,11 +195,17 @@ a.button-nav:focus {
 }
 
 .feedback-box{
-  margin-top: 2rem;
-  padding: 2rem;
+  max-width: 900px;
+  margin: 2rem auto 5rem auto;
+  padding: 3rem;
   background-color: #e2ecdf;
-  border-radius: 0.25em;
-  margin-bottom: 30px;
+  border-radius: 1rem;
+}
+
+.feedback-box label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .feedback-box textarea {
@@ -210,7 +216,6 @@ a.button-nav:focus {
   border-radius: 4px;
   resize: vertical;
 }
-
 
 /*Product page Styles*/
 .product-title{
@@ -303,33 +308,33 @@ a.button-nav:focus {
   background-color: white;
 }
 
-.color-circle {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 50%;
-}
+  .color-circle {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+  }
 
-.color-circle.c1 {
-  background-color: #e2ecdf;
-}
+  .color-circle.c1 {
+    background-color: #e2ecdf;
+  }
 
-.color-circle.c2 {
-  background-color: #393333;
-}
+  .color-circle.c2 {
+    background-color: #393333;
+  }
 
-.color-circle.c3 {
-  background-color: #e3d1d1;
-}
+  .color-circle.c3 {
+    background-color: #e3d1d1;
+  }
 
-.color-guide-box h4 {
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 1rem;
-}
+  .color-guide-box h4 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
 
-.color-guide-box p {
-  font-size: 1rem;
-  text-align: center;
-}
+  .color-guide-box p {
+    font-size: 1rem;
+    text-align: center;
+  }
 
 
