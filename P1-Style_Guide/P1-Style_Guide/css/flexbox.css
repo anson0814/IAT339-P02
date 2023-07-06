@@ -1,7 +1,6 @@
 
 /* Citation: everything was learned from lab or from trial and error unless there is separate citation */
 
-
 .box {
     display: flex;
     margin: 0 auto;
@@ -178,8 +177,7 @@
   .nav-menu a:hover, a:focus {
     color: #393433;
     background-color: #c9e4bf;
-    border-radius: 1rem;
-   
+    border-radius: 15px;
   }
 
   input[type="radio"] {
@@ -216,6 +214,7 @@
     background-color: white;
     color: black;
     padding: 2rem 2rem;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .product-showcase {
