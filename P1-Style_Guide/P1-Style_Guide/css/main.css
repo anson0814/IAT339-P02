@@ -1,17 +1,9 @@
-/*
-  STYLE GUIDE STYLING 
-  Default styling for the style guide 
-  /* Citation: everything was learned from lab unless there is separate citation */
-
+/* Citation: everything was learned from lab unless there is separate citation */
 
 body {
-  font-family: 'Nunito Sans', sans-serif;
-  padding: 2rem;
+  margin: 1.25rem;
   background-color: #f7fbf5;
-}
-
-section {
-  margin-bottom: 50; /*Citation: from lab*/
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 img:hover, img:focus { /*Citation: from lab*/
@@ -50,7 +42,7 @@ img { /*Citation: from lab*/
   padding: auto;
   font-size: 1.1rem;
   line-height: 2rem;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
@@ -79,7 +71,7 @@ img { /*Citation: from lab*/
 }
 
 .element {
-  padding-bottom: 2rem;
+  margin: 1rem 0;
   border-top-width: 0.15rem;
   border-top-style: solid;
   border-top-color: black;
@@ -90,7 +82,6 @@ h1 {
   font-size: 3rem;
   color: #393433;
   font-family: 'DM Serif Display', serif;
-  max-width: 100%;
 }
 
 h2 {
@@ -350,9 +341,6 @@ form input[type=submit] {
 
 .color-guide-box {
   flex-wrap: wrap;
-  width: 100%;
-  border-radius: 1rem;
-  justify-content: space-around;
 }
 
   .container {
@@ -363,7 +351,8 @@ form input[type=submit] {
   .color-circle {
     width: 15rem;
     height: 15rem;
-    border-radius: 50%;
+    border-radius: 3rem;
+    margin: 0 10px;
   }
 
   .color-circle.c1 {
