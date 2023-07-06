@@ -158,14 +158,13 @@
 }
 
 .button {
-    margin: 1rem;
     font-weight: bold;
     font-size: 18px;
     max-width: fit-content;
     padding: 5rem;
     color: #393433;
     background-color:#e2ecdf;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .checkout-button {
@@ -226,30 +225,6 @@
         margin-bottom: 10px;
     }
   }
-
-/* contact FORM */
-.contact-form-box {
-    justify-content: center; /* default justify is left */
-}
-
-.contact-column { /* Citation: grid display from https://stackoverflow.com/questions/71177735/splitting-form-into-two-columns */
-    display: grid; /* sorts payment and shipping into 2 columns */
-    grid-template-columns: 1fr 1fr;
-    background-color: #e2ecdf;
-    display: inline-block; 
-	padding: 0rem 3rem 3rem 2rem;
-}
-
-.contact-label-box { /* for labels and inputs */
-    display: grid;
-    grid-template-columns: 1fr 1fr; /*splits label and input divs in 2 columns*/
-    padding: 1rem; 
-    margin-top: 1.5rem;
-}
-
-#message {
-    padding: 4rem 1rem 0rem 0rem;
-}
 
 .about-box {
     background-color: #e2ecdf;
