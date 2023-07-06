@@ -94,7 +94,6 @@ h1 {
 }
 
 h2 {
-  margin-top: 6rem;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 36px;
   color: #393333;
@@ -194,27 +193,62 @@ a.button-nav:focus {
   border: 0.1rem solid #393333;
 }
 
-.feedback-box{
-  max-width: 900px;
-  margin: 2rem auto 5rem auto;
-  padding: 3rem;
+.payment-form-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* contact / feedback page */
+
+form {
+  min-width: 360px;
+  max-width: 500px;
+  margin: 1rem auto;
+  padding: 2rem;
   background-color: #e2ecdf;
   border-radius: 1rem;
 }
 
-.feedback-box label {
+form label {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1rem;
 }
 
-.feedback-box textarea {
+form input[type=text], input[type=email], textarea{
   width: 100%;
-  height: 100px;
-  padding: 5px;
+  box-sizing: border-box; /* border width added inside parent container*/
+  padding: 0.75rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0.5rem;
+  margin: 0.5rem auto;
   resize: vertical;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form input[type=submit] {
+  display: block;
+  margin: 1rem auto 0;
+}
+
+.column { /* Citation: grid display from https://stackoverflow.com/questions/71177735/splitting-form-into-two-columns */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #e2ecdf;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+}
+
+.payment-label-box {
+  display: grid;
+  box-sizing: border-box;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;  
+  padding: 0.75rem;
 }
 
 /*Product page Styles*/
@@ -299,14 +333,17 @@ a.button-nav:focus {
 
 /* Colors */
 
-.color-guide-box .container {
-  width: 15rem;
-  height: 20rem;
-  margin: 1rem auto;
-  padding: 2rem;
+.color-guide-box {
+  flex-wrap: wrap;
+  width: 100%;
   border-radius: 1rem;
-  background-color: white;
+  justify-content: center;
 }
+
+  .container {
+    margin: 10px;
+    width: 15rem;
+  }
 
   .color-circle {
     width: 15rem;
