@@ -252,7 +252,7 @@ a.button-nav:focus {
 
 .footer {
   background-color: #E2ECDF;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   border-radius: 10px;
 }
@@ -268,6 +268,7 @@ a.button-nav:focus {
   margin-bottom: 10px;
   margin-right: 20px;
   border: 0px;
+  border-radius: 0;
 }
 
 .container {
