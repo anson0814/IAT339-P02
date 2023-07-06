@@ -178,8 +178,8 @@
   .nav-menu a:hover, a:focus {
     color: #393433;
     background-color: #c9e4bf;
-    border-radius: 15px;
-    text-decoration: underline;
+    border-radius: 1rem;
+   
   }
 
   input[type="radio"] {
