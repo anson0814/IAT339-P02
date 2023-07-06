@@ -3,9 +3,11 @@
   Default styling for the style guide 
   /* Citation: everything was learned from lab unless there is separate citation */
 
+
 body {
   font-family: Arial, Helvetica, sans-serif; /*Citation: from lab*/
   padding: 2rem;
+  background-color: #f7fbf5;
 }
 
 section {
@@ -34,6 +36,33 @@ img { /*Citation: from lab*/
   left: 10%;
 }
 
+#about-img-text {
+  color: white;
+  position: absolute;
+  top: 60%;
+  font-size: 2.2rem;
+  max-width: 70%;
+  padding: 0 10%;
+}
+
+#about-text {
+  margin: 1rem 25% 5rem 25%;
+  padding: auto;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  #about-text {margin: 1rem 15% 5rem 15%}
+  #about-img-text {font-size: 2rem}
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+  #about-text {margin: 1rem 10% 5rem 10%}
+  #about-img-text {font-size: 1.5rem}
+}
+
 .homepage-button {
   position: absolute;
   top: 75%;
@@ -41,7 +70,7 @@ img { /*Citation: from lab*/
 }
 
 .text { /*Citation: https://learn.shayhowe.com/html-css/building-forms/*/
-  border: 1px solid #2a2727;
+  border: 1px solid #393333;
    box-shadow: inset 0 1px 1px lightgrey;
   color: lightgrey;
   padding: 8px;
@@ -68,7 +97,7 @@ h2 {
   margin-top: 6rem;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 36px;
-  color: #2a2727;
+  color: #393333;
 }
 
 h3 {
@@ -88,6 +117,7 @@ h4 {
 
 p {
   margin-top: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*anchored in text links*/
@@ -158,7 +188,6 @@ a.button-nav:hover,
 a.button-nav:focus {
   color: #393433;
   background-color: #c9e4bf;
-  text-decoration: underline;
 }
 
 .counter-button:hover {
@@ -239,10 +268,10 @@ a.button-nav:focus {
 }
 
 .footer ul li a {
-  color: #333;
+  color: #393333;
   text-decoration: none;
   padding: 5px;
-  border: 1px solid #333;
+  border: 1px solid #393333;
 }
 
 .footer .social-media img {
@@ -258,3 +287,54 @@ a.button-nav:focus {
   text-align: center;
   align-content: center;
 }
+
+.home-image img{
+  border: 0;
+  width: 100%;
+}
+
+/* 
+------STYLE GUIDE------
+*/
+
+/* Colors */
+
+.color-guide-box .container {
+  width: 15rem;
+  height: 20rem;
+  margin: 1rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.color-circle {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.color-circle.c1 {
+  background-color: #e2ecdf;
+}
+
+.color-circle.c2 {
+  background-color: #393333;
+}
+
+.color-circle.c3 {
+  background-color: #e3d1d1;
+}
+
+.color-guide-box h4 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.color-guide-box p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+
