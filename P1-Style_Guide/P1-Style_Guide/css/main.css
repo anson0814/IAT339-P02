@@ -32,7 +32,7 @@ img { /*Citation: from lab*/
 #homepage-img-text {
   color: white;
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 10%;
 }
 
@@ -337,9 +337,16 @@ form input[type=submit] {
   align-content: center;
 }
 
+.home-image{
+  position: relative;
+}
+
 .home-image img{
   border: 0;
   width: 100%;
+  align-content: center;
+  position: relative;
+  height: 100%;
 }
 
 /* 
