@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=DM+Serif+Display&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=DM+Serif+Display&family=Nunito+Sans:wght@300;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet');
 
 @font-face { /* Citation: lab */
 	font-family: 'Bebas Neue', sans-serif;
@@ -12,8 +12,8 @@
 }
 
 @font-face { 
-	font-family: 'Caprasimo', cursive;
-	src: url(fonts/Caprasimo/Caprasimo-Regular.ttf);
+	font-family: 'Nunito Sans', sans-serif;
+	src: url(fonts/Nunito_Sans/NunitoSans_10pt_SemiCondensed_regular.ttf);
 }
 
 @font-face {
