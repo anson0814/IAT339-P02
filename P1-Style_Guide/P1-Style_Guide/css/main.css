@@ -167,7 +167,6 @@ input[type=submit]:hover {
   border: 0.1rem solid #393333;
 }
 
-
 a.button-nav {
   display: inline-block;
   padding: 0.6em 2.4em; 
@@ -180,9 +179,7 @@ a.button-nav {
   font-size: 16px;
 }
 
-a.button-nav:hover, 
-a.button-nav:focus {
-  color: #393433;
+a.button-nav:hover, a.button-nav:focus {
   background-color: #c9e4bf;
 }
 
@@ -267,24 +264,6 @@ form input[type=submit] {
 .center-heading{
   text-align: center;
 }
-
-/* 
-  INTERACTIVE ELEMENTS -------------------
-*/
-
-/* Styling for the navigation button */
-
-
-
-/* 
-  TEXT ELEMENTS -------------------
-*/
-
-
-/* 
-  COMBINED ELEMENTS -------------------
-*/
-
 
 .footer {
   background-color: #E2ECDF;
