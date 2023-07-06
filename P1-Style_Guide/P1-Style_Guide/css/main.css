@@ -198,7 +198,7 @@ a.button-nav:focus {
   flex-wrap: wrap;
 }
 
-/* contact / feedback page */
+/* forms */
 
 form {
   min-width: 360px;
@@ -337,11 +337,11 @@ form input[type=submit] {
   flex-wrap: wrap;
   width: 100%;
   border-radius: 1rem;
-  justify-content: center;
+  justify-content: space-around;
 }
 
   .container {
-    margin: 10px;
+    margin: 2rem auto;
     width: 15rem;
   }
 
