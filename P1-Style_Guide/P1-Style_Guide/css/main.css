@@ -71,10 +71,15 @@ img { /*Citation: from lab*/
 }
 
 .element {
-  margin: 1rem 0;
-  border-top-width: 0.15rem;
+  margin: 3rem 0;
+  padding: 1rem;
+  border-top-width: 0.1rem;
   border-top-style: solid;
   border-top-color: black;
+  border-bottom-width: 0.1rem;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  
 }
 
 .main-heading {
@@ -131,11 +136,6 @@ a:focus {
 
 a:visited {
   color: #8F3B56;
-}
-
-nav a:hover, nav a:focus {
-  text-decoration: none;
-  color: white;
 }
 
 code {
