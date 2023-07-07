@@ -31,7 +31,7 @@ img { /*Citation: from lab*/
 #about-img-text {
   color: white;
   position: absolute;
-  top: 60%;
+  top: 30%;
   font-size: 2.2rem;
   max-width: 70%;
   padding: 0 10%;
@@ -376,13 +376,10 @@ form input[type=submit] {
     text-align: center;
   }
 
-
-
-
 .cart-wrapper {
   border: 0;
   position: absolute;
-  top: 75px;
+  top: 45px;
   right: 100px;
 }
 
