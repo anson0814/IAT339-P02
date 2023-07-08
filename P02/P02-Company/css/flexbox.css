@@ -10,42 +10,55 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     text-align: center;
-    max-width: 1200px;
 }
 
 .detailed-product-listing-box {
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem;
 }
 
 .detailed-product-listing {
-    margin: 4rem;
-    max-width: 600px;
+    margin: 1rem;
+    max-width: 500px;
 }
 
 .detailed-product-listing .product-ingredients{
     font-weight: lighter;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .product-listing {
     max-width: 360px;
     padding: 1rem;
     justify-content: left;
+
 }
 
 .product-name {
     color: rgb(161, 97, 108);
     font-size: 1.2rem;
+    margin: 0.5rem 0;
 }
 
 .product-description {
     min-height: 1rem;
-    margin: 2rem 0;
+    margin: 0;
 }
 
-.product-price {
-    font-size: 1rem;
-    font-weight: bold;
+.product-price{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.detailed-product-listing h4 {
+    margin-bottom: 2rem;
+}
+
+.detailed-product-listing h5 {
+    margin: 2rem 0;
 }
 
 .nav-box {
