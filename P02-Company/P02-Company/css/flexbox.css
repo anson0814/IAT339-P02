@@ -168,7 +168,7 @@
     display: flex;
     justify-content: center;
     background-color: #e2ecdf;
-    padding: 15px;
+    padding: 10px 200px;
     border-radius: 15px;
   }
   
@@ -194,9 +194,10 @@
     height: 1.25em;
   }
 
-  @media (max-width: 80rem) {
+  @media (max-width: 60rem) {
     .nav-menu {
       flex-wrap: wrap;
+      padding: 10px 150px;
     }
     
     .nav-menu a {
