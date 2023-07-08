@@ -103,6 +103,10 @@ h2 {
   color: #393333;
 }
 
+.form h2 {
+  font-size: 36px;
+}
+
 h3 {
   font-size: 26px;
 }
@@ -256,6 +260,7 @@ form input[type=submit] {
 }
 
 .product-price{
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 50;
   font-size: 1rem;
 }
