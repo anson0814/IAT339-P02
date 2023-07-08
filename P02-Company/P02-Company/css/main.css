@@ -259,12 +259,6 @@ form input[type=submit] {
   padding-bottom: 1rem;
 }
 
-.product-price{
-  font-family: 'Bebas Neue', sans-serif;
-  font-weight: 50;
-  font-size: 1rem;
-}
-
 .product{
   margin-top: 2rem;
 }
@@ -384,8 +378,8 @@ form input[type=submit] {
 .cart-wrapper {
   border: 0;
   position: absolute;
-  top: 45px;
-  right: 100px;
+  top: 30px;
+  right: 60px;
 }
 
 .cart-wrapper:hover .cart-icon {
@@ -402,8 +396,8 @@ form input[type=submit] {
 .cart-icon img {
   border: 0;
   border-radius: 0;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 @media (max-width: 600px) {
@@ -419,7 +413,7 @@ form input[type=submit] {
   .cart-icon img {
     border: 0;
     border-radius: 0;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 }
