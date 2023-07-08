@@ -112,7 +112,7 @@ h4 {
 }
 
 .content {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   padding-top: 30px;
 }
 
@@ -263,6 +263,9 @@ form input[type=submit] {
 
 .center-heading{
   text-align: center;
+  margin-bottom: 0px;
+  font-size: 40px;
+
 }
 
 .footer {
@@ -419,6 +422,24 @@ form input[type=submit] {
     border-radius: 0;
     width: 35px;
     height: 35px;
+  }
+
+  .home-image{
+    position: relative;
+  }
+
+  #homepage-img-text {
+    font-size: 20px;
+    top: 5%;
+    left: 35%;
+    text-align: center;
+  }
+
+  .homepage-button {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    scale: 0.6;
   }
 }
 
