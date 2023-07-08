@@ -1,0 +1,425 @@
+/* Citation: everything was learned from lab unless there is separate citation */
+
+body {
+  margin: 1.5rem;
+  background-color: #f7fbf5;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+img:hover, img:focus { /*Citation: from lab*/
+  border: 0.2rem solid #e3d1d1;
+}
+
+img { /*Citation: from lab*/
+  max-width: 100%; 
+  border: 0.2rem solid rgb(99, 80, 80);
+  height: auto;
+  border-radius: 1rem;
+}
+
+.homepage-img {
+  margin: auto;
+}
+
+#homepage-img-text {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+#about-img-text {
+  color: white;
+  position: absolute;
+  top: 30%;
+  font-size: 2.2rem;
+  max-width: 70%;
+  padding: 0 10%;
+}
+
+#about-text {
+  margin: 1rem 25% 5rem 25%;
+  padding: auto;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  #about-text {margin: 1rem 15% 5rem 15%}
+  #about-img-text {font-size: 2rem}
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+  #about-text {margin: 1rem 10% 5rem 10%}
+  #about-img-text {font-size: 1.5rem}
+}
+
+.homepage-button {
+  position: absolute;
+  top: 75%;
+  left: 10%;
+}
+
+.text { /*Citation: https://learn.shayhowe.com/html-css/building-forms/*/
+  border: 1px solid #393333;
+   box-shadow: inset 0 1px 1px lightgrey;
+  color: lightgrey;
+  padding: 8px;
+  margin-top: 4px;
+  width: 30%;
+}
+
+.element {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top-width: 0.1rem;
+  border-top-style: solid;
+  border-top-color: black;
+  border-bottom-width: 0.1rem;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+.main-heading {
+  font-weight: bold;
+  font-size: 36px;
+  color: #393433;
+  font-family: 'DM Serif Display', serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  color: #393433;
+  font-family: 'DM Serif Display', serif;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  color: #393333;
+}
+
+.form h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.space-before {
+  margin-top: 2rem;
+}
+
+.space-after {
+  margin-bottom: 2rem;
+}
+
+.content {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+/*anchored in text links*/
+a {
+  color: #FFc1ad; 
+  text-decoration: none;
+  padding-right: 0.5em;
+}
+
+a:hover,
+a:focus {
+  color: #FFc1ad; 
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #7b5c66;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  border-style: none;
+  margin-bottom: 0.75rem;
+}
+
+input[type=submit] { /* Citation: https://html.form.guide/web-form-widget/css3-button-hover-effects/ */
+  background-color: #393433;
+  width: 100%;
+  color: #ffffff;
+  padding: 1em 2.5em;
+  border: none;
+}
+
+input[type=submit]:hover {
+  background-color: #ffffff;
+  width: 100%;
+  color: #393433;
+  border: 0.1rem solid #393333;
+}
+
+a.button-nav {
+  display: inline-block;
+  padding: 0.6em 2.4em; 
+  background-color: #e2ecdf;
+  color: #393433;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  font-size: 16px;
+}
+
+a.button-nav:hover, a.button-nav:focus {
+  background-color: #c9e4bf;
+}
+
+.counter-button:hover {
+  border: 0.1rem solid #393333;
+}
+
+.payment-form-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* forms */
+
+form {
+  min-width: 360px;
+  max-width: 500px;
+  margin: 1rem auto;
+  padding: 2rem;
+  background-color: #e2ecdf;
+  border-radius: 1rem;
+}
+
+form label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+form input[type=text], input[type=email], textarea{
+  width: 100%;
+  box-sizing: border-box; /* border width added inside parent container*/
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin: 0.5rem auto;
+  resize: vertical;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form input[type=submit] {
+  display: block;
+  margin: 1rem auto 0;
+}
+
+.column { /* Citation: grid display from https://stackoverflow.com/questions/71177735/splitting-form-into-two-columns */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #e2ecdf;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+}
+
+.payment-label-box {
+  display: grid;
+  box-sizing: border-box;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;  
+  padding: 0.75rem;
+}
+
+/*Product page Styles*/
+.product-title{
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.product-price{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 50;
+  font-size: 1rem;
+}
+
+.product{
+  margin-top: 2rem;
+}
+
+.center-heading{
+  text-align: center;
+}
+
+.footer {
+  background-color: #E2ECDF;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.footer-nav{
+  display: flex;
+	flex-direction: column;
+}
+
+.footer .social-media img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  border: 0px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 850px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-child {
+    flex-basis: 100%; 
+    margin-bottom: 10px;
+  }
+}
+
+.about-section{
+  max-width: 50%;
+  text-align: center;
+  align-content: center;
+}
+
+.home-image{
+  position: relative;
+}
+
+.home-image img{
+  border: 0;
+  width: 100%;
+  align-content: center;
+  position: relative;
+  height: 100%;
+}
+
+/* 
+------STYLE GUIDE------
+*/
+
+/* Colors */
+
+.color-guide-box {
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+  .color-container {
+    width: 10rem;
+    margin: 2rem 1rem 0 1rem;
+  }
+
+  .color-circle {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 3rem;
+  }
+
+  .color-circle.c1 {
+    background-color: #e2ecdf;
+  }
+
+  .color-circle.c2 {
+    background-color: #393333;
+  }
+
+  .color-circle.c3 {
+    background-color: #e3d1d1;
+  }
+
+  .color-circle.c4 {
+    background-color: #C9E4BF;
+  }
+
+  .color-circle.c5 {
+    background-color:#FFc1ad;
+  }
+
+  .color-circle.c6 {
+    background-color: #7b5c66;
+  }
+ 
+.cart-wrapper {
+  border: 0;
+  position: absolute;
+  top: 45px;
+  right: 100px;
+}
+
+.cart-wrapper:hover .cart-icon {
+  border: 0;
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in-out;
+}
+
+.cart-icon {
+  border: 0;
+  display: inline-block;
+}
+
+.cart-icon img {
+  border: 0;
+  border-radius: 0;
+  width: 60px;
+  height: 60px;
+}
+
+@media (max-width: 600px) {
+  .cart-wrapper {
+    position: relative;
+    top: initial;
+    right: initial;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cart-icon img {
+    border: 0;
+    border-radius: 0;
+    width: 50px;
+    height: 50px;
+  }
+}
