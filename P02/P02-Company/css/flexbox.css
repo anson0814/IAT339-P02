@@ -173,32 +173,31 @@
     border-radius: 15px;
   }
   
-  .nav-menu a:hover, a:focus {
+  .nav-menu a:hover, .nav-menu a:focus {
     color: #393433;
     background-color: #c9e4bf;
     border-radius: 15px;
+  }
+  
+  @media (max-width: 600px) {
+    .nav-menu {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      padding: 0;
+    }
+    
+    .nav-menu a {
+      flex: none;
+      width: 100%;
+      padding: 8px 10px;
+      border-radius: 0;
+    }
   }
 
   input[type="radio"] {
     accent-color: #f85d5d !important;
     width: 100%;
     height: 1.25em;
-  }
-
-  @media (max-width: 80rem) {
-    .nav-menu {
-      flex-wrap: wrap;
-    }
-    
-    .nav-menu a {
-      flex: none;
-      width: 50%;
-    }
-
-    .footer ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
   }
 
 .about-box {
