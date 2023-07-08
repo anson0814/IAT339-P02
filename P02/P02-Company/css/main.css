@@ -446,7 +446,7 @@ form input[type=submit] {
 
   .homepage-button {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 25%;
     scale: 0.6;
   }
@@ -488,4 +488,42 @@ form input[type=submit] {
   background-color: #ffffff;
   color: #393433;
   border: 1px solid #393333;
+}
+
+.review {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.review-title {
+  font-size: 18px;
+  color: #393433;
+  margin: 0;
+}
+
+.review-rating {
+  font-size: 16px;
+  color: #ffd700;
+}
+
+.review-description {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.review-author {
+  color: #666;
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 0;
 }
