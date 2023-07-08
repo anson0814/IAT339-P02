@@ -31,7 +31,16 @@ img { /*Citation: from lab*/
 #about-img-text {
   color: white;
   position: absolute;
-  top: 30%;
+  top: 40%;
+  font-size: 2.2rem;
+  max-width: 70%;
+  padding: 0 10%;
+}
+
+#about-img-text-name{
+  color: white;
+  position: absolute;
+  top: 20%;
   font-size: 2.2rem;
   max-width: 70%;
   padding: 0 10%;
@@ -52,7 +61,6 @@ img { /*Citation: from lab*/
 
 @media (min-width: 360px) and (max-width: 600px) {
   #about-text {margin: 1rem 10% 5rem 10%}
-  #about-img-text {font-size: 1.5rem}
 }
 
 .homepage-button {
@@ -112,7 +120,7 @@ h4 {
 }
 
 .content {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   padding-top: 30px;
 }
 
@@ -263,6 +271,10 @@ form input[type=submit] {
 
 .center-heading{
   text-align: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-size: 40px;
+
 }
 
 .footer {
@@ -420,6 +432,38 @@ form input[type=submit] {
     width: 35px;
     height: 35px;
   }
+
+  .home-image{
+    position: relative;
+  }
+
+  #homepage-img-text {
+    font-size: 1.5rem;
+    top: 5%;
+    left: 30%;
+    text-align: center;
+  }
+
+  .homepage-button {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    scale: 0.6;
+  }
+
+  #about-img-text-name{
+    font-size: 1.6rem;
+    top: -5%;
+    left: 25%;
+  }
+
+
+  #about-img-text {
+    font-size: 1.3rem;
+    left: 10%;
+    text-align: center;
+    top: 25%;
+  }
 }
 
 
@@ -444,4 +488,42 @@ form input[type=submit] {
   background-color: #ffffff;
   color: #393433;
   border: 1px solid #393333;
+}
+
+.review {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.review-title {
+  font-size: 18px;
+  color: #393433;
+  margin: 0;
+}
+
+.review-rating {
+  font-size: 16px;
+  color: #ffd700;
+}
+
+.review-description {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.review-author {
+  color: #666;
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 0;
 }
