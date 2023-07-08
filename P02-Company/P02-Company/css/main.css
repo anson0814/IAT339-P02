@@ -1,7 +1,7 @@
 /* Citation: everything was learned from lab unless there is separate citation */
 
 body {
-  margin: 1.25rem;
+  margin: 1.5rem;
   background-color: #f7fbf5;
   font-family: 'Nunito Sans', sans-serif;
 }
@@ -71,15 +71,16 @@ img { /*Citation: from lab*/
 }
 
 .element {
-  margin: 3rem 0;
-  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   border-top-width: 0.1rem;
   border-top-style: solid;
   border-top-color: black;
   border-bottom-width: 0.1rem;
   border-bottom-style: solid;
   border-bottom-color: black;
-  
 }
 
 .main-heading {
@@ -102,23 +103,29 @@ h2 {
   color: #393333;
 }
 
+.form h2 {
+  font-size: 36px;
+}
+
 h3 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 h4 {
-  margin-bottom: 0.25rem;
   font-size: 20px;
+}
+
+.space-before {
+  margin-top: 2rem;
+}
+
+.space-after {
+  margin-bottom: 2rem;
 }
 
 .content {
   padding-bottom: 30px;
   padding-top: 30px;
-}
-
-p {
-  margin-top: 0;
-  font-family: 'Nunito Sans', sans-serif;
 }
 
 /*anchored in text links*/
@@ -130,12 +137,12 @@ a {
 
 a:hover,
 a:focus {
-  color: #ff8888; 
+  color: #FFc1ad; 
   text-decoration: underline;
 }
 
 a:visited {
-  color: #8F3B56;
+  color: #7b5c66;
 }
 
 code {
@@ -195,7 +202,7 @@ a.button-nav:hover, a.button-nav:focus {
 /* forms */
 
 form {
-  min-width: 200px;
+  min-width: 360px;
   max-width: 500px;
   margin: 1rem auto;
   padding: 2rem;
@@ -253,6 +260,7 @@ form input[type=submit] {
 }
 
 .product-price{
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 50;
   font-size: 1rem;
 }
@@ -334,19 +342,19 @@ form input[type=submit] {
 .color-guide-box {
   flex-wrap: wrap;
   width: 100%;
-
+  text-align: center;
+  justify-content: space-around;
 }
 
-  .container {
-    margin: 1rem 1rem;
-    width: 15rem;
+  .color-container {
+    width: 10rem;
+    margin: 2rem 1rem 0 1rem;
   }
 
   .color-circle {
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 3rem;
-    margin: 0 10px;
   }
 
   .color-circle.c1 {
@@ -365,21 +373,18 @@ form input[type=submit] {
     background-color: #C9E4BF;
   }
 
-  .color-guide-box h4 {
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 1rem;
+  .color-circle.c5 {
+    background-color:#FFc1ad;
   }
 
-  .color-guide-box p {
-    font-size: 1rem;
-    text-align: center;
+  .color-circle.c6 {
+    background-color: #7b5c66;
   }
-
+ 
 .cart-wrapper {
   border: 0;
   position: absolute;
-  top: 25px;
+  top: 45px;
   right: 100px;
 }
 
@@ -397,51 +402,24 @@ form input[type=submit] {
 .cart-icon img {
   border: 0;
   border-radius: 0;
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
 }
 
 @media (max-width: 600px) {
   .cart-wrapper {
-    position: absolute;
-    top: 10px;
-    right: 15px;
+    position: relative;
+    top: initial;
+    right: initial;
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
   }
 
   .cart-icon img {
     border: 0;
     border-radius: 0;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
   }
-}
-
-
-.centered-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.add-to-cart-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #393433;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  border: 1px solid #ffffff;
-}
-
-.add-to-cart-button:hover {
-  background-color: #ffffff;
-  color: #393433;
-  border: 1px solid #393333;
 }

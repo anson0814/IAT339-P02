@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Style Guide</title>
+        
+        <link href="css/fonts.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/flexbox.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="center-heading main-heading">feel fresh.</h1>
+    
+            <nav class="nav-menu">      
+                <a href="index.html">Home</a>  
+                <a href="updates.html">New</a>
+                <a href="product_listing.html">Products</a>
+                <a href="about.html">About</a>
+                <a href="feedback.html">Contact</a>
+                <a href="checkout.html">Checkout</a>
+            </nav>
+        </header>
+
+        <header id="style-guide-nav">
+            <h2 class="center-heading"> Style Guide </h2>
+            <nav class="nav-menu">      
+                <a href="branding.html">Branding</a>  
+                <a href="interactive_elements.html">Interactive Elements</a>
+                <a href="text_styling.html">Text Styling</a>
+                <a href="combined_elements.html">Combined Elements</a>
+                <a href="citations.html">Citations</a>
+            </nav>
+        </header>
+
+        <!-- COMBINED ELEMENTS SECTION // -->
+        <section id="combined_elements">
+            <h2>Combined Elements</h2>
+
+            <section>
+            <h3 class="element">Main Navigation</h3>
+            
+            <header>
+                <h1 class="center-heading main-heading">feel fresh.</h1>
+        
+                <nav class="nav-menu">      
+                    <a href="index.html">Home</a>  
+                    <a href="updates.html">New</a>
+                    <a href="product_listing.html">Products</a>
+                    <a href="about.html">About</a>
+                    <a href="feedback.html">Contact</a>
+                    <a href="checkout.html">Checkout</a>
+                </nav>
+            </header>
+
+            </section>
+
+            <section>
+            <h3 class="element">Product/Service Listing</h3>
+
+                <h1 class="center-heading"> All Products </h1>
+
+                <div class="box product-listing-box">
+
+                <div class="product-listing product-1">
+                    <div> 
+                    <a class="product-img-box" href="img/product-1.jpg"><img src ="img/product-1.jpg" alt="Picture of Kintsugi Firming Cream"> </a> <!--Citation: lab tutorial-->
+                    </div>
+                    <h4 class="product-name">HUE CALM Kintsugi Firming Cream</h4>
+                    <p class="product-description"> A gel formula firming cream with 100% vegan formula. </p>
+                    <h5 class="product-price">$27.00</h5>
+                </div>
+
+                <div class="product-listing product-5">
+                    <div>
+                    <a class="product-img-box" href="img/product-5.jpeg"><img src ="img/product-5.jpeg" alt="Picture of Lemon Verbena Body Lotion"> </a> <!--Citation: lab tutorial-->
+                    </div>
+                    <h4 class="product-name">Skinfood Lemon Verbena Body Lotion</h4>
+                    <p class="product-description">A daily body lotion with lemon verbana extract for deep hydration to the skin. </p>
+                    <h5 class="product-price">$18.00</h5>
+                </div> 
+
+                <div class="product-listing product-2">
+                    <div>
+                    <a class="product-img-box" href="img/product-2.jpg"><img src ="img/product-2.jpg" alt="Picture of Cleaning Balm"> </a> <!--Citation: lab tutorial-->
+                    </div>
+                    <h4 class="product-name">Heart Percent Cleansing Balm</h4>
+                    <p class="product-description">A daily cleansing balm with calming effect for irritated skin. </p>
+                    <h5 class="product-price">$18.00</h5>
+                </div> 
+
+                <div class="product-listing product-3">
+                    <div>
+                    <a class="product-img-box" href="img/product-3.jpg"><img src ="img/product-3.jpg" alt="Picture of Extra Super 9+ Active Stick"> </a> <!--Citation: lab tutorial-->
+                    </div>
+                    <h4 class="product-name">MEDI-PEEL Stick Mask</h4>
+                    <p class="product-description">A stick face mask to help with blackheads, dead skin cells. </p>
+                    <h5 class="product-price">$28.00</h5>
+                </div>
+
+                <div class="product-listing product-4">
+                    <div> 
+                    <a class="product-img-box" href="img/product-4.jpeg"><img src ="img/product-4.jpeg" alt="Picture of Mascara"> </a> <!--Citation: lab tutorial-->
+                    </div>
+                    <h4 class="product-name">Marshique Enriched Washable Mascara</h4>
+                    <p class="product-description"> A mascara that gives lashes a natural appearance and is easily removed with warm water to prevent irritation to the eyes. </p>
+                    <h5 class="product-price">$22.00</h5>
+                </div>
+
+                </div>
+                
+            </section>
+
+            <section>
+            <h3 class="element">Payment Form</h3>
+
+            <div class="payment-form-box">
+                <form>
+                    <div class="shipping-form">
+                        <h2 class="center-heading"> SHIPPING </h2>
+
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Lori Jiang" required>
+                        
+                        <label for="email">Street Address:</label>
+                        <input type="text" id="address" name="address" placeholder="1234 1234 1234 1234" required>
+                        
+                        <label for="name">City:</label>
+                        <input type="text" id="city" name="city" placeholder="mm/yyyy" required>
+
+                        <label for="name">Postal Code:</label>
+                        <input type="text" id="postal" name="postal" placeholder="123" required>
+                
+                    </div>
+                </form>
+
+                <form>
+                    <div class="payment-form">
+
+                        <h2 class="center-heading"> PAYMENT </h2>
+
+                        <label for="name">Name on Card:</label>
+                        <input type="text" id="cardname" name="cardname" placeholder="Lori Jiang" required>
+                        
+                        <label for="email">Card Number:</label>
+                        <input type="text" id="cardnumber" name="cardnumber" placeholder="1234 1234 1234 1234" required>
+                        
+                        <label for="name">Expiry Date:</label>
+                        <input type="text" id="expiry" name="expiry" placeholder="mm/yyyy" required>
+
+                        <label for="name">CVV:</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                    
+                        <input type="submit" value="Submit" class="button"/>
+
+                    </div>         
+                </form>
+            </div>
+                
+            </section>
+
+            <section>
+
+            <h3 class="element">Checkout Cart</h3>
+
+                <div class="checkout-cart-box box">
+                <div class="checkout-item box">
+                    <div> 
+                    <h4 class="checkout-name">HUE CALM Kintsugi Firming Cream</h4>
+                    <a class="checkout-img-box" href="img/product-1.jpg"><img src ="img/product-1.jpg" alt="Picture of Kintsugi Firming Cream"> </a> <!--Citation: lab tutorial-->
+                    </div>
+                    <div class="counter"> <!-- Citation: learned how to make button from https://uxplanet.org/how-to-create-a-shopping-cart-ui-using-html-css-e5db3cd55aa0-->
+                    <div class="counter-button">-</div>
+                    <div class="count">1</div>
+                    <div class="counter-button">+</div>
+                    <div class="checkout-price">$27</div>
+                    </div>
+                </div>
+                
+                <div class="checkout-item box">
+                    <div> 
+                    <h4 class="checkout-name">MEDI-PEEL Stick Mask</h4>
+                    <a class="checkout-img-box" href="img/product-3.jpg"><img src ="img/product-3.jpg" alt="Picture of Extra Super 9+ Active Stick"> </a> <!--Citation: lab tutorial-->
+                    </div>
+                    <div class="counter"> <!-- Citation: learned how to make button from https://uxplanet.org/how-to-create-a-shopping-cart-ui-using-html-css-e5db3cd55aa0-->
+                    <div class="counter-button">-</div>
+                    <div class="count">1</div>
+                    <div class="counter-button">+</div>
+                    <div class="checkout-price">$28</div>
+                    </div>
+                </div>
+
+                <div class="checkout-item box">
+                    <div>
+                    <h4 class="checkout-name">Heart Percent Cleansing Balm</h4> 
+                    <a class="checkout-img-box" href="img/product-2.jpg"><img src ="img/product-2.jpg" alt="Picture of Cleansing Balm"> </a> <!--Citation: lab tutorial-->
+                    </div>
+                    <div class="counter"> <!-- Citation: learned how to make button from https://uxplanet.org/how-to-create-a-shopping-cart-ui-using-html-css-e5db3cd55aa0-->
+                    <div class="counter-button">-</div>
+                    <div class="count">1</div>
+                    <div class="counter-button">+</div>
+                    <div class="checkout-price">$18</div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="checkout-total">Total: $73</div>
+                <input class="checkout-button" type="submit" value="Checkout" >
+
+                </div>
+
+            </section>
+
+            <section id="payment-form">
+            <h3 class="element">Contact Form</h3>
+
+            <div class="form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="feedback">Message:</label>
+
+                    <div>
+                        <textarea id="feedback" name="feedback" required></textarea>
+                    </div>
+
+                    <input type="submit" value="Submit" class="button"/>
+                    
+                </form>
+            </div> 
+
+            </section>
+
+        </section>
+        <!-- // COMBINED ELEMENTS SECTION -->
+
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-nav flex-child">
+            <a href="index.html">Home</a>  
+            <a href="updates.html">New</a>
+            <a href="product_listing.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="feedback.html">Contact</a>
+            <a href="checkout.html">Checkout</a>
+        </div>
+        
+        <div class="contact flex-child">
+            <p>Contact: info@feelfresh.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+        <div class="style-guide flex-child">
+            <p><a href="style_guide.html">Style Guide</a></p>
+        </div>
+
+        <div class="social-media flex-child">
+            <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://twitter.com/home"><img src="img/twitter.png" alt="Twitter"></a>
+        </div>
+
+        </div>
+    </footer>
+
+    </body>
+
+</html>

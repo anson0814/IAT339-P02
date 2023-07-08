@@ -36,6 +36,69 @@
             </nav>
         </header>
 
+        <!-- INTERACTIVE ELEMENTS SECTION // -->
+        <section id="interactive_elements">
+            <h2>Interactive Elements</h2>
+
+            <section>
+                <h3 class="element">In-text link</h3>
+                <p> This is a sentence with an
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Robot">in-text link.</a> <!--Citation: lab tutorial-->
+                </p>
+            </section>
+
+            <section>
+                <h3 class="element">Navigation Link</h3>
+
+                <h4>CSS selector:</h4>
+                <p>.button-nav</p>
+
+                <h4>Sample code:</h4>
+                <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+                <h4>Rendered element:</h4>
+                <a class="button-nav" href="#">Default Button</a>
+            </section>
+
+            <section>
+                <input type="submit" value="Submit" class="button"/>
+            </section>
+
+            <section>
+                <h3 class="element">Text Input Field with Label</h3>
+                <form>
+                    <div class="shipping-form">
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Lori Jiang" required>
+                    </div>
+                </form>
+            </section>
+
+            <section>
+                <h3 class="element">Radio Button with Label</h3>
+                <div>
+                <input type="radio" id="choice1"> <!--Citation: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio-->
+                <label for="choice1">Shade 01</label>
+                </div>
+                <div>
+                <input type="radio" id="choice2">
+                <label for="choice2" >Shade 02</label>
+                </div>
+                <div>
+                <input type="radio" id="choice3">
+                <label for="choice3">Shade 03</label>
+                </div>
+            </section>
+
+            <section>
+            <h3 class="element">Image as a Link</h3>
+            <a class="product-img-box" href="img/product-1.jpg"><img src ="img/product-1.jpg" alt="Picture of Kintsugi Firming Cream"> </a> <!--Citation: lab tutorial-->
+            </section>
+
+
+        </section>
+        <!-- // INTERACTIVE ELEMENTS SECTION -->
+
     <footer class="footer">
         <div class="container">
         <div class="footer-nav flex-child">
