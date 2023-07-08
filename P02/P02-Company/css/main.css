@@ -37,6 +37,15 @@ img { /*Citation: from lab*/
   padding: 0 10%;
 }
 
+#about-img-text-name{
+  color: white;
+  position: absolute;
+  top: 0%;
+  font-size: 2.2rem;
+  max-width: 70%;
+  padding: 0 10%;
+}
+
 #about-text {
   margin: 1rem 25% 5rem 25%;
   padding: auto;
@@ -52,7 +61,6 @@ img { /*Citation: from lab*/
 
 @media (min-width: 360px) and (max-width: 600px) {
   #about-text {margin: 1rem 10% 5rem 10%}
-  #about-img-text {font-size: 1.5rem}
 }
 
 .homepage-button {
@@ -440,6 +448,19 @@ form input[type=submit] {
     top: 50%;
     left: 25%;
     scale: 0.6;
+  }
+
+  #about-img-text-name{
+    top: -10%;
+    left: 20%;
+  }
+
+
+  #about-img-text {
+    font-size: 1.3rem;
+    left: 10%;
+    text-align: center;
+    top: 25%;
   }
 }
 
